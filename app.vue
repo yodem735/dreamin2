@@ -5,13 +5,13 @@
       <div class="w-screen h-screen flex items-center justify-center relative">
         <div class="w-[70%] md:w-[50%] relative">
           <img 
-            src="./dreaming2_files/Preloader.webp" 
+            src="/Preloader.webp" 
             class="w-full"
           />
           <div class="absolute inset-0 flex items-center justify-center">
             <div class="w-[20%] ml-[15%]">
               <img 
-                src="./dreaming2_files/cat_sleep.webp" 
+                src="/cat_sleep.webp" 
                 class="w-full"
               />
             </div>
@@ -62,33 +62,33 @@
 
         <!-- Left Side Icons -->
         <div class="flex flex-col w-[7vw] ml-2 md:ml-5 md:w-[3.5vw] gap-y-[3vw] md:gap-y-[2vw] mt-[-5vw] md:mt-[-2vw]">
-          <img src="./dreaming2_files/Nintendo64.webp" />
-          <img src="./dreaming2_files/ExplorerGif.gif" />
-          <img src="./dreaming2_files/DiskGif.gif" />
-          <img src="./dreaming2_files/HeartGif2.gif" />
-          <img src="./dreaming2_files/ToiletGif.gif" />
-          <img src="./dreaming2_files/PSImg.webp" />
+          <img src="/Nintendo64.webp" />
+          <img src="/ExplorerGif.gif" />
+          <img src="/DiskGif.gif" />
+          <img src="/HeartGif2.gif" />
+          <img src="/ToiletGif.gif" />
+          <img src="/PSImg.webp" />
         </div>
 
         <!-- Center Content -->
         <div class="gap-y-[6vh] flex items-center justify-center flex-col absolute w-full bottom-[10vh] md:bottom-[.5vw]">
           <img 
-            src="./dreaming2_files/StatueFace.webp" 
+            src="/StatueFace.webp" 
             class="h-[30vh] md:h-[45vh]"
           />
           <div class="space-y-[-36vh] md:space-y-[-44vh] flex flex-col items-center">
             <img 
-              src="./dreaming2_files/buy_button.webp" 
+              src="/buy_button.webp" 
               class="bounce-7 h-[15vh] md:h-[18vh] z-[99] cursor-pointer hover:scale-110"
               @click="handleBuyClick"
             />
             <div class="space-y-[-19vh] md:space-y-[-23vh] flex flex-col items-center">
               <img 
-                src="./dreaming2_files/MainIcon.webp" 
+                src="/MainIcon.webp" 
                 class="h-[40vh] md:h-[50vh] z-[5]"
               />
               <img 
-                src="./dreaming2_files/PillarGif.gif" 
+                src="/PillarGif.gif" 
                 class="h-[30vh] md:h-[28vh] z-0"
               />
             </div>
@@ -98,41 +98,41 @@
         <!-- Floating Elements Top -->
         <div class="absolute w-full pl-[5vw] md:pl-0 top-[8vw] md:top-[3.5vw]">
           <div>
-            <img src="./dreaming2_files/Tab1.webp" class="tab-popup absolute w-[35vw] md:w-[25vw] left-[10vw] md:left-[7vw] z-0" />
-            <img src="./dreaming2_files/PinkCatGif.gif" class="tab-popup absolute w-[35vw] md:w-[10vw] top-[5vw] left-[11vw] md:left-[10vw] z-0" />
-            <img src="./dreaming2_files/AnythingCanHappenGif.gif" class="tab-popup absolute w-[35vw] md:w-[11vw] top-[3vw] left-[10vw] md:left-[18vw] z-0" />
+            <img src="/Tab1.webp" class="tab-popup absolute w-[35vw] md:w-[25vw] left-[10vw] md:left-[7vw] z-0" />
+            <img src="/PinkCatGif.gif" class="tab-popup absolute w-[35vw] md:w-[10vw] top-[5vw] left-[11vw] md:left-[10vw] z-0" />
+            <img src="/AnythingCanHappenGif.gif" class="tab-popup absolute w-[35vw] md:w-[11vw] top-[3vw] left-[10vw] md:left-[18vw] z-0" />
           </div>
-          <img src="./dreaming2_files/Tab2Gif.gif" class="tab-popup absolute w-[25vw] md:w-[18vw] left-[20vw] top-[14vw] z-[1]" />
-          <img src="./dreaming2_files/Tab3.webp" class="tab-popup absolute w-[15vw] md:w-[15vw] left-[32vw] md:left-[26vw] top-[3vw] z-[5]" />
+          <img src="/Tab2Gif.gif" class="tab-popup absolute w-[25vw] md:w-[18vw] left-[20vw] top-[14vw] z-[1]" />
+          <img src="/Tab3.webp" class="tab-popup absolute w-[15vw] md:w-[15vw] left-[32vw] md:left-[26vw] top-[3vw] z-[5]" />
           <div>
-            <img src="./dreaming2_files/AnimeGif.gif" class="tab-popup absolute w-[20vw] md:w-[20vw] right-[32vw] md:right-[23vw] top-[25.5vw] md:top-[10.5vw] z-10" />
-            <img src="./dreaming2_files/Tab4.webp" class="tab-popup absolute w-[13vw] md:w-[13vw] right-[35vw] md:right-[26vw] top-[36.5vw] md:top-[21.5vw] z-10" />
+            <img src="/AnimeGif.gif" class="tab-popup absolute w-[20vw] md:w-[20vw] right-[32vw] md:right-[23vw] top-[25.5vw] md:top-[10.5vw] z-10" />
+            <img src="/Tab4.webp" class="tab-popup absolute w-[13vw] md:w-[13vw] right-[35vw] md:right-[26vw] top-[36.5vw] md:top-[21.5vw] z-10" />
           </div>
-          <img src="./dreaming2_files/Tab5.webp" class="tab-popup absolute w-[20vw] md:w-[15vw] right-[18vw] md:right-[13vw] top-[33vw] md:top-[20vw] z-[5]" />
-          <img src="./dreaming2_files/HandHeartImage.webp" class="absolute w-[20vw] md:w-[13vw] right-0 top-[36vw] md:top-[23vw] z-0" />
-          <img src="./dreaming2_files/Tab6Gif.gif" class="tab-popup absolute w-[35vw] md:w-[22vw] right-[.5vw] top-[.5vw] z-0" />
-          <img src="./dreaming2_files/DolphinGif.gif" class="absolute w-[25vw] md:w-[16vw] right-[25vw] top-[-2vw] z-0" />
-          <img src="./dreaming2_files/SadHeartGif.gif" class="absolute w-[7vw] right-[33vw] md:right-[21vw] top-[24vw] md:top-[13vw] z-0" />
-          <img src="./dreaming2_files/JapaneseWordGif.gif" class="absolute w-[20vw] md:w-[15vw] right-[30vw] top-[15vw] md:top-[6vw] z-0" />
+          <img src="/Tab5.webp" class="tab-popup absolute w-[20vw] md:w-[15vw] right-[18vw] md:right-[13vw] top-[33vw] md:top-[20vw] z-[5]" />
+          <img src="/HandHeartImage.webp" class="absolute w-[20vw] md:w-[13vw] right-0 top-[36vw] md:top-[23vw] z-0" />
+          <img src="/Tab6Gif.gif" class="tab-popup absolute w-[35vw] md:w-[22vw] right-[.5vw] top-[.5vw] z-0" />
+          <img src="/DolphinGif.gif" class="absolute w-[25vw] md:w-[16vw] right-[25vw] top-[-2vw] z-0" />
+          <img src="/SadHeartGif.gif" class="absolute w-[7vw] right-[33vw] md:right-[21vw] top-[24vw] md:top-[13vw] z-0" />
+          <img src="/JapaneseWordGif.gif" class="absolute w-[20vw] md:w-[15vw] right-[30vw] top-[15vw] md:top-[6vw] z-0" />
         </div>
 
         <!-- Floating Elements Bottom -->
         <div class="absolute w-full bottom-0 pl-[5vw] md:pl-0 top-[10vw] md:top-[3vw]">
-          <img src="./dreaming2_files/StarGif.gif" class="absolute w-[15vw] md:w-[8vw] left-[11vw] top-[40vw] md:top-[21vw]" />
-          <img src="./dreaming2_files/StatueGif.gif" class="absolute w-[35vw] md:w-[13vw] left-0 md:left-[5vw] bottom-0" />
-          <img src="./dreaming2_files/IcecreamGif.gif" class="absolute w-[15vw] md:w-[7vw] left-[23vw] md:left-[15vw] bottom-0" />
-          <img src="./dreaming2_files/WindowsImg.webp" class="absolute w-[11vw] md:w-[7vw] left-[35vw] md:left-[28vw] bottom-[1vw]" />
-          <img src="./dreaming2_files/japaneseword.webp" class="absolute w-[25vw] md:w-[9vw] left-[35vw] md:left-[22vw] bottom-[13vw] md:bottom-[3vw] z-0" />
-          <img src="./dreaming2_files/SadFaceGif.gif" class="absolute w-[13vw] md:w-[10vw] left-[43vw] md:left-[35vw] bottom-0 z-0" />
-          <img src="./dreaming2_files/PowerGif.gif" class="absolute w-[40vw] md:w-[15vw] right-0 md:right-[25vw] bottom-0 z-0" />
-          <img src="./dreaming2_files/GameboyGif.gif" class="absolute w-[15vw] md:w-[8vw] right-[3vw] md:right-[15vw] bottom-[40vw] md:bottom-[3vw] z-0" />
+          <img src="/StarGif.gif" class="absolute w-[15vw] md:w-[8vw] left-[11vw] top-[40vw] md:top-[21vw]" />
+          <img src="/StatueGif.gif" class="absolute w-[35vw] md:w-[13vw] left-0 md:left-[5vw] bottom-0" />
+          <img src="/IcecreamGif.gif" class="absolute w-[15vw] md:w-[7vw] left-[23vw] md:left-[15vw] bottom-0" />
+          <img src="/WindowsImg.webp" class="absolute w-[11vw] md:w-[7vw] left-[35vw] md:left-[28vw] bottom-[1vw]" />
+          <img src="/japaneseword.webp" class="absolute w-[25vw] md:w-[9vw] left-[35vw] md:left-[22vw] bottom-[13vw] md:bottom-[3vw] z-0" />
+          <img src="/SadFaceGif.gif" class="absolute w-[13vw] md:w-[10vw] left-[43vw] md:left-[35vw] bottom-0 z-0" />
+          <img src="/PowerGif.gif" class="absolute w-[40vw] md:w-[15vw] right-0 md:right-[25vw] bottom-0 z-0" />
+          <img src="/GameboyGif.gif" class="absolute w-[15vw] md:w-[8vw] right-[3vw] md:right-[15vw] bottom-[40vw] md:bottom-[3vw] z-0" />
         </div>
       </div>
     </div>
 
     <!-- Audio -->
     <audio ref="audioPlayer" loop preload="auto">
-      <source src="./dreaming2_files/MidnightPretenders.B4DeZdXM.mp3" type="audio/mp3" />
+      <source src="/MidnightPretenders.B4DeZdXM.mp3" type="audio/mp3" />
       Your browser does not support the audio element.
     </audio>
   </div>
@@ -150,19 +150,19 @@ const preloaderOptions = ['No', "No I wouldn't"]
 const sidebarIcons = [
   {
     name: 'unmute',
-    src: './dreaming2_files/unmute.webp',
+    src: '/unmute.webp',
     class: 'w-[6vw] md:w-[3.5vw] p-[.5vw] px-[.5vw] cursor-pointer hover:scale-110',
     action: toggleAudio
   },
   {
     name: 'twitter',
-    src: './dreaming2_files/twitter.gif',
+    src: '/twitter.gif',
     class: 'w-[6vw] md:w-[3.5vw] p-[.5vw] px-[.5vw] cursor-pointer hover:scale-110',
     action: () => window.open('https://twitter.com', '_blank')
   },
   {
     name: 'dex',
-    src: './dreaming2_files/dex.webp',
+    src: '/dex.webp',
     class: 'w-[6vw] md:w-[3.5vw] p-[.5vw] px-[.5vw] cursor-pointer hover:scale-110',
     action: () => console.log('Dex clicked')
   }
@@ -199,7 +199,7 @@ onMounted(() => {
 
 <style scoped>
 .index-container {
-  background-image: url('./dreaming2_files/Backdrop.webp');
+  background-image: url('/Backdrop.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
